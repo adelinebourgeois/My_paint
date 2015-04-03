@@ -1,0 +1,22 @@
+html, body {
+	width: 75%;
+	height: 75%;
+}
+
+#paint {
+	border: 1px solid gray;
+	width: 500px;
+	height: 500px;
+	cursor: pointer;
+}
+#text_tool 
+{
+    position: absolute;
+    border: 1px dashed black;
+    outline: 0;
+    display: none;
+     
+    font: 10px Verdana;
+    overflow: hidden;
+    white-space: nowrap;
+}
